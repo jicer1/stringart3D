@@ -1,0 +1,37 @@
+# Only application sources, bundled demos and portable publication tools are tracked.
+/*
+!/index.html
+!/style.css
+!/i18n.js
+!/app.js
+!/scene.js
+!/geometry.js
+!/calculator.worker.js
+!/import.worker.js
+!/icon.svg
+!/version.json
+!/AIDE.md
+!/CREDITS.txt
+!/.htaccess
+!/server.cjs
+!/Lancer stringart3D.bat
+!/Preparer MAJ serveur.bat
+!/README.md
+!/.gitignore
+!/.gitattributes
+!/assets/
+/assets/*
+!/assets/demo.json
+!/assets/demo-anne.json
+!/assets/Anne_License.txt
+!/assets/LeePerrySmith_License.txt
+!/vendor/
+/vendor/*
+!/vendor/babylon.js
+!/vendor/LICENSE.babylon.md
+!/vendor/meshopt_simplifier.js
+!/vendor/LICENSE.meshoptimizer.md
+!/tools/
+/tools/*
+!/tools/preparer-publication.cjs
+!/tools/preparer-maj.py

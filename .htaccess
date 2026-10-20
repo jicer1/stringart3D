@@ -1,0 +1,10 @@
+DirectoryIndex index.html
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html?|json|js|css|svg|md|txt)$">
+    Header set Cache-Control "no-cache, max-age=0, must-revalidate"
+    Header set X-Content-Type-Options "nosniff"
+  </FilesMatch>
+</IfModule>
+<FilesMatch "(^\.|\.(py|npz|cjs|bat)$)">
+  Require all denied
+</FilesMatch>

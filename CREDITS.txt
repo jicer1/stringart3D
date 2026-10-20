@@ -1,0 +1,22 @@
+stringart3D — 1.0.13
+Conception : Jacinto Costoso — 2026 — https://www.costoso.net
+
+Modèle par défaut : portrait fourni par Jacinto Costoso.
+Créé avec MakerWorld · Make My Statue.
+https://makerworld.com/en/makerlab/makeMyStatue
+STL allégé et normalisé ; tissage recalculé sur cinq vues.
+Les conditions de MakerWorld s’appliquent au modèle généré.
+
+Allègement local : meshoptimizer 1.1, Arseny Kapoulkine, licence MIT.
+https://github.com/zeux/meshoptimizer/tree/v1.1
+Licence incluse dans vendor/LICENSE.meshoptimizer.md.
+
+Moteur WebGL : Babylon.js. Copie locale issue du projet Poly de l’atelier.
+Licence Apache 2.0 incluse dans vendor/LICENSE.babylon.md.
+
+L’interface reprend la famille graphique de Poly et le fonctionnement de StringArt 2D.
+
+Deuxième démonstration : portrait d’Anne, préparé ensemble depuis anne.jpg.
+Reconstruction expérimentale locale, avec cheveux longs attachés.
+Repères et topologie MediaPipe : licence Apache 2.0, incluse dans
+assets/Anne_License.txt. Le modèle ne provient pas de MakerWorld.
